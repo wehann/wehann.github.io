@@ -14,7 +14,7 @@ grammar_cjkRuby: true
 问了问比较熟悉Python开发的好兄弟LL，他推荐给了我一个Python版本管理神器pyenv（我之前在老电脑上可能用过，但是不记得名字了），通过它可以解决Python版本过多的烦恼。
 # 第二个坑
 安装好pyenv后，我用`pyenv global`设置了Python版本，诶不对，为啥没起作用啊。。。还是系统默认版本啊
-![pyenv未生效](./images/1597649341099.png)
+![pyenv未生效](https://github.com/wehann/blog_images/blob/master/images/1597649341099.png?raw=true)
 后来查了一下，才知道是因为系统调用Python的默认顺序是从Path中规定的，我虽然安装了pyenv但是它的优先级更低。好吧，继续找找解决办法。
 ### 解决办法
 一开始看到了[https://www.jianshu.com/p/c2bc48fa9363](https://www.jianshu.com/p/c2bc48fa9363) 尝试了一下，但是make no sense。
