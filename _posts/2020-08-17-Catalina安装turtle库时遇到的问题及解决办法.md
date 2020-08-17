@@ -1,8 +1,8 @@
 ---
 title: Catalina安装turtle库时遇到的问题及解决办法
-author: wehann
-categories: [turtle, python, Catalina]
-date: 2020-08-17 17:37:00 +0800
+categories: turtle python Catalina
+renderNumberedHeading: true
+grammar_cjkRuby: true
 ---
 
 
