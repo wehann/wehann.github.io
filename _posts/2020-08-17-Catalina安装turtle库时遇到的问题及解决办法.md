@@ -43,7 +43,7 @@ grammar_cjkRuby: true
 后来我看到了一个mac系统上的类似指令，`sudo port install python27-tk`，那我觉得是不是我安装好port指令，然后把python27改成python3就行了？但是我打不开macport的下载页面，于是我就去找与我有一洋之隔的WDT帮我下载。而且要安装macport，还必须要装有xcode和xcode的命令行？！没办法，我还把xcode也下了下来。
 
 安装好之后：
-![Python3-tk](./images/1597650618241.png)
+![Python3-tk](https://github.com/wehann/blog_images/blob/master/images/1597650618241.png?raw=true)
 ？？？？？？？？？？？？？？？？？
 
 看来这个办法是行不通的了，只能另辟蹊径。虽然网上铺天盖地的都是apt-get的解决办法（我就纳闷了，你们复制粘贴这么多一模一样的是想干啥？？？果然人类的本质就是复读机么），但是我也不知道自己是怎么做到找到mac系统的解决办法的。
@@ -53,4 +53,4 @@ grammar_cjkRuby: true
 解决办法二（起作用了，再次感谢WDT的海外援助，帮我下软件，救我狗命）：[https://www.jianshu.com/p/a6a8525c9535](https://www.jianshu.com/p/a6a8525c9535)
 
 至此，turtle终于成功安装了。这次配环境真是一波三折，我感觉还是很有必要拿个博客记录一下的。那这篇博文也作为这个博客的处文贴上吧。
-![turtle成功运行](./images/1597650928672.png)
+![turtle成功运行](https://github.com/wehann/blog_images/blob/master/images/1597650928672.png?raw=true)
